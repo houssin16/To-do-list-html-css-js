@@ -1,0 +1,130 @@
+*{
+
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: sans-serif ;
+    
+   
+}
+.container{
+
+
+width: 80%;
+margin: 30PX  auto;
+
+}
+.container .from{
+
+    display: flex;
+    background-color: rgba(175, 170, 170, 0.363);
+    width: 60%;
+    height: 90PX;
+    margin: 15PX auto;
+    border-radius: 10px;
+   
+
+}
+.from input{
+width: 70%;
+height: 50px;
+margin-top: 20px;
+border-radius: 7px;
+margin-left: 20px;
+outline: none;
+border: none;
+padding: 7px;
+
+
+}
+.from .add{
+
+    width: 20%;
+    margin-left: 50px;
+    background-color: rgba(233, 54, 9, 0.781);
+    font-size: 19px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.container .tasks {
+
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ align-items: flex-start;
+ background-color: rgba(156, 151, 151, 0.363);
+ margin: 10PX auto;
+ border-radius: 7px;
+ 
+ 
+}
+.tasks .task:not(:last-child){
+
+    margin-bottom: 15px;
+
+}
+.tasks .task:hover{
+    background-color: #f7f7f7;
+}
+.tasks .task.done{
+    opacity: 0.5;
+
+}
+.tasks .task span{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgba(233, 54, 9, 0.781);
+    color: rgb(65, 12, 12);
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 27px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    
+
+}
+
+ .task{
+
+  background-color:rgb(190, 162, 162) ;
+  padding: 10PX;
+  border-radius: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 50px;
+   min-height: 50px;
+   width:90%;
+   text-align: left;
+   display: flex;
+   align-items: center;
+   font-size: 25PX;
+   padding: 10px;
+   justify-content:space-between;
+   cursor: pointer;
+
+}
+
+.r{
+    width: 60%;
+    min-height: 70PX;
+    background-color:rgba(165, 140, 140, 0.363);
+    margin: 20px auto;
+    border-radius: 7PX;
+    z-index: -1;
+    color: rgb(5, 87, 87);
+    
+}
+.del{
+ 
+}
